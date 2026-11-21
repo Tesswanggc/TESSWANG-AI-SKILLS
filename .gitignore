@@ -1,0 +1,11 @@
+# 私有状态与真实业务数据，禁止提交
+state/
+data/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 测试生成文件
+tests/out_test.csv
+tests/out_test.json

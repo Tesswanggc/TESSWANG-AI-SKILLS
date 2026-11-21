@@ -1,0 +1,38 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Test Three-Piece Soup Set",
+      "handle": "test-soup-set",
+      "product_type": "Serveware Set",
+      "vendor": "TESSWANG",
+      "tags": ["set"],
+      "body_html": "<p><strong>Material:</strong> Porcelain<br><strong>Glaze:</strong> White<br><strong>Collection:</strong> Test Series<br></p>",
+      "published_at": "2026-11-01T00:00:00+08:00",
+      "options": [{"name": "Size", "position": 1, "values": ["100MM"]}],
+      "images": [{"src": "https://example.com/a.jpg", "width": 750, "height": 750, "alt": null}],
+      "variants": [
+        {"id": 11, "title": "100MM", "sku": null, "price": "50.00", "available": true,
+         "taxable": true, "requires_shipping": true, "grams": 0,
+         "option1": "100MM", "option2": null, "option3": null}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Test Single Plate",
+      "handle": "test-single-plate",
+      "product_type": "Plate",
+      "vendor": "TESSWANG",
+      "tags": ["陶瓷"],
+      "body_html": "<p>A plain plate body without specs.</p>",
+      "published_at": "2026-11-01T00:00:00+08:00",
+      "options": [{"name": "Size", "position": 1, "values": ["200MM"]}],
+      "images": [],
+      "variants": [
+        {"id": 22, "title": "200MM", "sku": null, "price": "12.50", "available": false,
+         "taxable": true, "requires_shipping": true, "grams": 0,
+         "option1": "200MM", "option2": null, "option3": null}
+      ]
+    }
+  ]
+}
